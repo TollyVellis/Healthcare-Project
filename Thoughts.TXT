@@ -1,0 +1,23 @@
+-- Look over your dataset --
+1) The first thing tha comes to mind: there is a lot of different attributes which probably add togethor to get the
+column "charges". The ultimate aim would be to narrow down the relationship between "age", "sex", "smoker", etc., in
+order to establish how different metrics contribute to charges.
+2) The data seems clean: no astounding or obviously incorrect values.
+3) Data is organised into columns representing attributes and rows representing a person.
+
+
+-- Scoping your project --
+1) The ultimate aim is simple: establish a formula for charge based on the other attributes given.
+2) A secondary (lower) aim is to qualitatively establish trends, such as: does being male increase your charge?
+What about a smoker? (The answers for most will probably be fairly intuitive but there will be value in confirming.)
+3) Another thing that could be fun to analyse is just how many people fit into the various buckets.
+
+How will the above be accomplished?
+- My first thought would be to people that are similer in every metric except one, and then see what impact the
+changed metric has on the charge. 
+- This will allow us to slowly reduce the degrees of freedom and answer the following formula:
+
+Charges = (U * age) + (V * sex) + (W * children) + (X * smoker) + (Z * region)
+
+Where age, bmi, children are probably values; whereas region and sex are likely represented by some value to account for
+the fact they're qualitative values.
