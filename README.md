@@ -3,7 +3,7 @@ This is my response to the "U.S. Medical Insurance Costs" problem.
 
 It's a fairly simple exercise that gives quite a bit of scope for playing around with the data.
 
-My first approach was to identify the formula for how the cost is generated off the metrics. Much to my (dis?)pleasure I found that though some people have the same metrics and the same insurance costs, others have the same metrics and different costs. Further investigation shows that changes in metrics were not correlated with consistent changes in cost. This proves an interesting meta-fact about the data set:
+My first approach was to identify the formula for how the cost is generated off the metrics. Much to my (dis?)pleasure I found that though some people have the same metrics and the same insurance costs, others have the same metrics and different costs. Further investigation shows that changes in metrics were not correlated with consistent changes in cost. This suggest several plausible possibilities about the meta-data set:
 
 1) The data is corrupt.
 2) There are other variables that aren't shown to the analyst.
