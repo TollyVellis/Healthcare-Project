@@ -9,7 +9,7 @@ My first approach was to identify the formula for how the cost is generated off 
 2) There are other variables that aren't shown to the analyst.
 3) There is an inherent bias that can't be explained by the metrics given.
 
-Number (3) is the most interesting working within the frame of the dataset itself. Regardless, there was no possible way to create a formula for this dataset.
+Number (3) is the most interesting working within the frame of the dataset itself. Regardless, there was no possible way to create a formula for this dataset using simple algebra: linear regression analysis or some such process would be a logical next step.
 
 After that, I did some general analysis focussing on what the "average" person was in the dataset (male, over 30, at least one kid, non smoker...) and explored some aspects to the metrics that could potentially impact the cost (like smokers, who pay on average 3.8 times as much as non-smokers), or more controversial ones like location (southeners can expect to pay as much as much as 18% more on average than northeners. Is the southern weather more dangerous? Or is there a 'Global South' type bias at play here?).
 
